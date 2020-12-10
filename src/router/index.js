@@ -4,6 +4,9 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
+import { asyncRoutes } from '@/router/modules/index.js';
+console.log('----', asyncRoutes);
+
 const routes = [
   {
     path: '/',
